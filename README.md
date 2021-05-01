@@ -6,12 +6,13 @@
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >=0.15.1 |
+| <a name="requirement_aws"></a> [aws](#requirement\_aws) | >=3.38.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | n/a |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | >=3.38.0 |
 
 ## Modules
 
@@ -27,7 +28,7 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_organisation_feature_set"></a> [organisation\_feature\_set](#input\_organisation\_feature\_set) | n/a | `string` | n/a | yes |
+| <a name="input_organisation_feature_set"></a> [organisation\_feature\_set](#input\_organisation\_feature\_set) | Valid values are ALL (default) or CONSOLIDATED\_BILLING | `string` | n/a | yes |
 
 ## Outputs
 

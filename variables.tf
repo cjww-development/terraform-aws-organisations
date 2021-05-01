@@ -1,3 +1,4 @@
 variable "organisation_feature_set" {
-  type = string
+  description = "Valid values are ALL (default) or CONSOLIDATED_BILLING"
+  type        = string
 }
