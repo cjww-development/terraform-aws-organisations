@@ -22,13 +22,13 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [aws_organizations_organization.main_org](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/organizations_organization) | resource |
+| [aws_organizations_organization.main](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/organizations_organization) | resource |
 
 ## Inputs
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_organisation_feature_set"></a> [organisation\_feature\_set](#input\_organisation\_feature\_set) | Valid values are ALL (default) or CONSOLIDATED\_BILLING | `string` | n/a | yes |
+| <a name="input_feature_set"></a> [feature\_set](#input\_feature\_set) | Valid values are ALL (default) or CONSOLIDATED\_BILLING | `string` | n/a | yes |
 
 ## Outputs
 
