@@ -32,5 +32,7 @@ No modules.
 
 ## Outputs
 
-No outputs.
+| Name | Description |
+|------|-------------|
+| <a name="output_organisation_arn"></a> [organisation\_arn](#output\_organisation\_arn) | n/a |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
