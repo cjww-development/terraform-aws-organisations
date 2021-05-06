@@ -7,3 +7,8 @@ variable "sandbox_email" {
   description = "Email address associated with the sandbox account"
   type        = string
 }
+
+variable "dev_email" {
+  description = "Email address associated with the development account"
+  type        = string
+}
