@@ -12,3 +12,8 @@ variable "dev_email" {
   description = "Email address associated with the development account"
   type        = string
 }
+
+variable "shared_email" {
+  description = "Email address associated with the shared account"
+  type        = string
+}
