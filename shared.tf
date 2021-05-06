@@ -7,6 +7,6 @@ resource "aws_organizations_account" "shared" {
   name                       = "shared"
   email                      = var.shared_email
   iam_user_access_to_billing = "DENY"
-  parent_id                  = aws_organizations_organizational_unit.development.id
+  parent_id                  = aws_organizations_organizational_unit.shared.id
   role_name                  = "root_role"
 }
