@@ -23,10 +23,12 @@ No modules.
 | Name | Type |
 |------|------|
 | [aws_organizations_account.development](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/organizations_account) | resource |
+| [aws_organizations_account.home_server](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/organizations_account) | resource |
 | [aws_organizations_account.sandbox](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/organizations_account) | resource |
 | [aws_organizations_account.shared](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/organizations_account) | resource |
 | [aws_organizations_organization.main](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/organizations_organization) | resource |
 | [aws_organizations_organizational_unit.development](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/organizations_organizational_unit) | resource |
+| [aws_organizations_organizational_unit.home_server](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/organizations_organizational_unit) | resource |
 | [aws_organizations_organizational_unit.sandbox](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/organizations_organizational_unit) | resource |
 | [aws_organizations_organizational_unit.shared](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/organizations_organizational_unit) | resource |
 
@@ -36,6 +38,7 @@ No modules.
 |------|-------------|------|---------|:--------:|
 | <a name="input_dev_email"></a> [dev\_email](#input\_dev\_email) | Email address associated with the development account | `string` | n/a | yes |
 | <a name="input_feature_set"></a> [feature\_set](#input\_feature\_set) | Valid values are ALL (default) or CONSOLIDATED\_BILLING | `string` | n/a | yes |
+| <a name="input_home_server_email"></a> [home\_server\_email](#input\_home\_server\_email) | Email address associated with the home server account | `string` | n/a | yes |
 | <a name="input_sandbox_email"></a> [sandbox\_email](#input\_sandbox\_email) | Email address associated with the sandbox account | `string` | n/a | yes |
 | <a name="input_shared_email"></a> [shared\_email](#input\_shared\_email) | Email address associated with the shared account | `string` | n/a | yes |
 
