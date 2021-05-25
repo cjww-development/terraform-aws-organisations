@@ -17,3 +17,8 @@ variable "shared_email" {
   description = "Email address associated with the shared account"
   type        = string
 }
+
+variable "home_server_email" {
+  description = "Email address associated with the home server account"
+  type        = string
+}
